@@ -1,0 +1,15 @@
+Package: com.ios.il2cppdumper
+Version: 1.0.0
+Architecture: iphoneos-arm
+Installed-Size: 772
+Depends: mobilesubstrate
+Filename: ./debs/il2cppdumper_1.0.0.deb
+Size: 163722
+MD5sum: 0123f0b9996b8fb8c2f2ece2e115ebb1
+SHA1: 2d7bb41b57ce6e296ea6e3e37ae364b9afda23a7
+SHA256: 2a1290ef5bac3f3a8d4a4819a9f1eaf2d4ad3dc19bf780348264b40c17a879c7
+Section: Tweaks
+Description: 在iOS上运行时Dump il2cpp数据
+Author: Batchh & tien0246 & qwwz
+Name: IOS Il2CppDumper
+
