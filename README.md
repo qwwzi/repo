@@ -1,2 +1,1 @@
-# xigua team repo
-Collection of xigua's creations &amp; releases
+个人自用的一些插件，仅支持rootless
