@@ -1,13 +1,19 @@
 {
  "class": "FeaturedBannersView",
- "itemSize": "{296, 148}",
- "itemCornerRadius": 10,
+ "itemSize": "{320, 230}",
+ "itemCornerRadius": 20,
  "banners": [
   {
-   "url": "https://qwwzi.Github.io/repo/banner.png",
+   "url": "https://qwwzi.Github.io/repo/banner1.png",
    "title": "",
-   "package": "com.netskao.appdatas",
-   "hideShadow": false
+   "package": "",
+   "hideShadow": true
+  },
+  {
+   "url": "https://qwwzi.Github.io/repo/banner2.png",
+   "title": "",
+   "package": "",
+   "hideShadow": true
   }
  ]
 }
