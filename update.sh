@@ -6,4 +6,4 @@ xz -c Packages > Packages.xz
 
 git add .
 git commit -m "更新文件"
-git push
+git push origin main
