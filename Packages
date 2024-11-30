@@ -1341,11 +1341,11 @@ Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2
 Replaces: ws.hbang.newterm, ws.hbang.newterm2
 Filename: ./debs/ws.hbang.newterm3_3.0~beta1_iphoneos-arm64.deb
-Size: 3838240
-MD5sum: 526f629c67fab0df6c714e13a26e7e7c
-SHA1: f6f46cf501fa9efca14261ad6e7c8b2c05e54480
-SHA256: 7e9941c0bafed19ac1a129432667d53398a48745004e4a4f4296faf0546682f3
-Section: Terminal Support
+Size: 3835320
+MD5sum: 5990bf2aa53edf700c556bc658dfc2ca
+SHA1: c8c7cd17f04a3c4e9f8aa6e407509f38f3f0629f
+SHA256: 23459936ba34b5d5549d4cde30f9851ae36c9782aa6281447d87ba9da57d1853
+Section: 工具
 Description: Powerful terminal app for iOS
 Tag: compatible_min::ios14.0
 Author: HASHBANG Productions <support@hbang.ws>
