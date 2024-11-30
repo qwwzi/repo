@@ -17,6 +17,23 @@ Description: 关闭iOS App签名检查
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Name: AppSync
 
+Package: apt.tinyapps.Renet.rootless
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: Tinyapps.cn
+Depends: firmware (>= 5.1.1)
+Filename: ./debs/apt.tinyapps.Renet.rootless_1.2.2_iphoneos-arm64.deb
+Size: 234176
+MD5sum: b0e3f2cce506caaa6e21573016305435
+SHA1: ba41f15afa821b80908ee1180f11455dcc534ef3
+SHA256: 8c4e836bee04d62d5e680d28d04dcb183848da3ddf709f4480b171fb0f5cafca
+Section: 工具
+Priority: optional
+Homepage: http://tinyapps.cn
+Description: 修复越狱后Cydia等各种软件无法联网的问题
+Author: Tinyapps.cn
+Name: 连个锤子-越狱联网一键修复[iOS 15+]
+
 Package: bzip2
 Version: 1.0.8
 Architecture: iphoneos-arm64
