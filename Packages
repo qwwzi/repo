@@ -17,22 +17,39 @@ Description: 关闭iOS App签名检查
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Name: AppSync
 
+Package: apt.tinyapps.RST
+Version: 2.4.1.2
+Architecture: iphoneos-arm64
+Maintainer: Tinyapps.cn
+Depends: firmware (>= 5.1.1), mobilesubstrate
+Filename: ./debs/apt.tinyapps.RST_2.4.1.2_iphoneos-arm64.deb
+Size: 3280296
+MD5sum: c92233878398d2f340b818d8cb5b7ad5
+SHA1: a41ec758ed62cab2cebe0edb4b86713db08e14d1
+SHA256: 0cee25f13a876da8fe59416da8e85af9f2b9ae0f0f7afbef3a0056fd7f4f24a2
+Section: 工具
+Priority: optional
+Homepage: Tinyapps.cn
+Description: MultiAccount Master(361一键新机)-Rootless无根越狱版-傻瓜式改串-Try the regular version on rootful jailbreak. 如果是传统有根越狱，请使用普通版本。Rootless jailbreaks includes Dopamine, Palera1n and Fuguma15 Max 无根越狱有Palera1n和Fuguma15 Max。Switch accounts on any apps like Facebook, Twitter, WeChat, WhatsApp, Tinder faster than ever. 支持15.0-16.6.1的所有越狱设备包括iPhone6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro/12/12Pro/14/14pro/14max Max。最强大的傻瓜式改串软件，提供一键新机、全息备份、精准还原等功能。首创以App为中心的操作方式；无需任何参数配置；支持应用多开；自动更换IP；支持网络代理配置访问；模拟2G/3G/4G/Wifi；各种App组合随意搭配；支持分辨率调节。
+Author: Tinyapps.cn
+Name: 361一键新机
+
 Package: apt.tinyapps.Renet.rootless
 Version: 1.2.2
 Architecture: iphoneos-arm64
 Maintainer: Tinyapps.cn
 Depends: firmware (>= 5.1.1)
 Filename: ./debs/apt.tinyapps.Renet.rootless_1.2.2_iphoneos-arm64.deb
-Size: 234176
-MD5sum: b0e3f2cce506caaa6e21573016305435
-SHA1: ba41f15afa821b80908ee1180f11455dcc534ef3
-SHA256: 8c4e836bee04d62d5e680d28d04dcb183848da3ddf709f4480b171fb0f5cafca
+Size: 234080
+MD5sum: f80c8d2df4475cd455c700df9df544ab
+SHA1: 1dfb750c26ade076025e65a5a1de942fe17d42c7
+SHA256: c86ffe75ce98a5a7de083fcf6ed3f735fef25ba4cf6bd5ca3b565fef28832c6d
 Section: 工具
 Priority: optional
 Homepage: http://tinyapps.cn
 Description: 修复越狱后Cydia等各种软件无法联网的问题
 Author: Tinyapps.cn
-Name: 连个锤子-越狱联网一键修复[iOS 15+]
+Name: 连个锤子
 
 Package: bzip2
 Version: 1.0.8
@@ -81,24 +98,6 @@ Section: 汉化
 Description: iGameGod汉化
 Author: 来了老弟
 Name: igg汉化
-
-Package: cn.tinyapps.rst
-Version: 2.4.1.1
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/cn.tinyapps.rst_2.4.1.1_iphoneos-arm64.deb
-Size: 3221108
-MD5sum: 5defd6e24eb69666713eef888a83d08c
-SHA1: 287ab9fa7c92edc8929538bc9988474b3c541fa4
-SHA256: a707e63880425f2af109b4565fbb434d2e0d33b67350575cafe7cd92481ddd4d
-Section: 工具
-Description: MultiAccount Master(361一键新机)-支持全系统(iOS 7/8/9/10/11/12/13/14/15/16)的傻瓜式改串-Switch accounts on any apps like Facebook, Twitter, WeChat, WhatsApp, Tinder faster than ever.
- 支持7.0-16.4的所有越狱设备包括iPhone6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro/12/12Pro/14/14pro/14max Max。最强大的傻瓜式改串软件，提供一键新机、全息备份、精准还原等功能。首创以App为中心的操作方式；无需任何参数配置；支持应用多开；自动更换IP；支持网络代理配置访问；模拟2G/3G/4G/Wifi；各种App组合随意搭配；支持分辨率调节。
-Tag: purpose::extension
-Author: Tinyapps.cn <tinyapps@qq.com>
-Dev: tinyapps
-Name: 361一键新机(MultiAccount Master)-全系统一键改串
 
 Package: cn.zqbb.holdcpu
 Version: 2.2.0-13
@@ -219,17 +218,14 @@ Installed-Size: 1980
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Conflicts: com.amywhile.aemulo
 Filename: ./debs/com.amywhile.aemulotrial_1.2.5_iphoneos-arm64.deb
-Size: 596396
-MD5sum: 50aebd278496a538e90525b4d478b38f
-SHA1: 80f003583167c2c2994a66ad49cf14ec02c447ef
-SHA256: 6346315ded180f75b3ac9523d12680f14fcb4a3f0843d3a3956b606299b9b392
+Size: 596348
+MD5sum: e2f09d509754bf2421fd2b87d11f5b4e
+SHA1: 63e9576f4dab7e375875e72b6690a49efd2c261b
+SHA256: 316cd8f670466c05bf0f695595b7ca8035b517e0b8fce18ac75ff8fa1f3c8440
 Section: 系统增强
-Description: NFC Frickery
+Description: 免费的NFC插件，付费的版多的一个功能可以添加到钱包里，不用每次打开软件才能刷门禁！其它的和这个免费版没区别，可以先测试录入门禁卡刷能不能成功再付费
 Author: Amy While <support@anamy.gay>
-Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
-Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
 Name: Aemulo (Trial)
-Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 
 Package: com.bandarhl.bhtwitter
 Version: 4.3-1+debug
