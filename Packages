@@ -630,12 +630,13 @@ Maintainer: opa334 <opa334@protonmail.com>
 Installed-Size: 884
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
 Filename: ./debs/com.opa334.choicy_1.4.10-3_iphoneos-arm64.deb
-Size: 104648
-MD5sum: e33a366881d719e66cdd5735205948a2
-SHA1: bc7777f4efbf33c8d5660be2528cef1c5f2a9c45
-SHA256: 4a9f8d7952159eecaec7f88924e739f67540c34add19b4dd6cbcdd875ea02bfa
+Size: 104808
+MD5sum: f04ac4a9a75fadf322a22374261d7a17
+SHA1: dcb3823d5dccd320d22d4f84e2fc8dedda0ba4ca
+SHA256: d2eefe4a43eca6fd3060e43b359b494f04171d89a492ab5d5f7ac1a04e1c9d6e
 Section: 工具
 Description: 屏蔽越狱
+ - 如还不行使用Dopamine ＞ 设置 ＞ 隐藏越狱
 Author: opa334 <opa334@protonmail.com>
 Name: Choicy
 
@@ -1700,16 +1701,16 @@ Maintainer: zqbb
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/zp.3dtouchtounject.rootless_1.0.2_iphoneos-arm64.deb
-Size: 5532
-MD5sum: 63c784d333f5fdb836e8b68586afbd22
-SHA1: f825c89a161617363d6e82a0d25530d3105854ad
-SHA256: ad33d44eb031bdab02b980234f8958bc92c09abf146c6643a6953c2071ff3ece
+Size: 5560
+MD5sum: d3c564da5f8c2edca944c56e6d50c138
+SHA1: 5feb740f6d92ac32c4881176dbd689ac7d9ce682
+SHA256: d5d4c01ce60131b2afe94b8336962972e38231facce74537c9d9d8d1779fea65
 Section: 系统增强
-Description: 底层控制是否禁用注入（也是操作plist文件，所以官方版不支持）
- - 优点：大部分APP不会检测到越狱。
- - 缺点：插件无法生效。
+Description: 底层控制是否禁用注入（操作plist文件，官方版Dopamine不支持，使用真皮版或M哥版）
+ - 大部分APP不会检测到越狱。
+ - 如还不行使用Dopamine ＞ 设置 ＞ 隐藏越狱
 Author: zqbb
-Name: 禁止注入之长按图标 - rootless
+Name: 禁止注入之长按图标
 
 Package: zp.stopautolaunchapps
 Version: 1.0.2
