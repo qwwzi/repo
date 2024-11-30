@@ -721,6 +721,21 @@ Description: 系统清理，破解版。
 Author: Ivano Bilenchi
 Name: iCleaner Pro
 
+Package: com.qwwz.touchvis
+Version: 2.8
+Architecture: iphoneos-arm64
+Maintainer: CyPwn <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.qwwz.touchvis_2.8_iphoneos-arm64.deb
+Size: 708056
+MD5sum: 5130197fe22b1138c040248c13c67201
+SHA1: d8663f38f29de4e82c8b3823547146e34b0d2879
+SHA256: 3f5394461a5807e19065afb4fbe419952034bc14099c3fa2e45ae54b43b6a5d6
+Section: 系统增强
+Description: Touch-Viz，全新的触摸显示插件，中文菜单，非常好用。
+Author: Lessica <xuanhua880@gmail.com>
+Name: Touch-Viz(Rootless)
+
 Package: com.screenshot.telegram
 Version: 1.0
 Architecture: iphoneos-arm64
