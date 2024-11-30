@@ -140,6 +140,23 @@ Description: Process Viewer for iOS GUI,适配rootless并增加一些小功能.1
 Author: Domo, SXX , zp
 Name: CocoaTop64.zp进程管理
 
+Package: codes.aurora.kayoko
+Version: 2.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1076
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: codes.aurora.kayoko, com.dao.kayoko, byg.iosios.net.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/codes.aurora.kayoko_2.7_iphoneos-arm64.deb
+Size: 123804
+MD5sum: e3806c54da882c00f90c8b4bd5d5d561
+SHA1: 8aec67b1b7380b11b2dbe9e902420cb93e2ffc5b
+SHA256: 7f8259fd344b119324a0d1e4dc02033a24a7c8607e2f9733063b707058878f9f
+Section: 系统增强
+Description: 键盘增加剪切板
+Author: Alexandra Aurora Göttlicher
+Name: Kayoko 剪切板
+
 Package: codes.aurora.kayokos
 Version: 2.7
 Architecture: iphoneos-arm64
@@ -176,17 +193,17 @@ Author: 0xkuj
 Name: Notifications通知分组计数
 Sponsor: 0xkuj
 
-Package: com.82flex.wtvrbglaunchers
+Package: com.82flex.wtvrbglauncher
 Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: Lessica
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.wtvrbglauncher
-Filename: ./debs/com.82flex.wtvrbglaunchers_1.1_iphoneos-arm64.deb
+Filename: ./debs/com.82flex.wtvrbglauncher_1.1_iphoneos-arm64.deb
 Size: 23164
-MD5sum: 6300c5d383d7ba2b126727ece8e1fc7a
-SHA1: 6249489ca71a4664c850aca8fb296abc276f3146
-SHA256: f2d6e706aa90a4c1d00ace7996a4f7c1d16fe59fec44c1cfa696654339d70ec7
+MD5sum: 0aa0eaae49353f0f29902b17512b70af
+SHA1: c9502c7949e84e164da19d4e07f2ce18f0d49c74
+SHA256: 29febee9b446001052334d48d3c4dc19c39789aaed5b20c31d79d636aa95be89
 Section: 应用增强
 Description: 中文输入法语音转文字免跳转插件。
  * 无设置选项，安装并注销后立即生效。
@@ -301,17 +318,17 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC
 
-Package: com.dumpapp.wechat-rootlesss
+Package: com.dumpapp.wechat-rootless
 Version: 2.0.4
 Architecture: iphoneos-arm64
 Maintainer: WeChat
 Depends: mobilesubstrate, firmware (>= 12.0)
 Conflicts: com.dumpapp.wechat-rootless, netskao.wechatpurifications, netskao.wechatpurification, byg.iosios.net.dumpapp.wechat-rootless
-Filename: ./debs/com.dumpapp.wechat-rootlesss_2.0.4_iphoneos-arm64.deb
-Size: 9235352
-MD5sum: 4b9f9a2f195ee0ab800b9a1986d70048
-SHA1: ddb299f7cc6ef12b906f350978356a0dd993c824
-SHA256: 3ecd386f30baaf8b46ca8be74f2e56a06f27930be3f8a84b9a6d097df9cfa764
+Filename: ./debs/com.dumpapp.wechat-rootless_2.0.4_iphoneos-arm64.deb
+Size: 9236116
+MD5sum: a6216d6c0ec362e3603bd2d390fa464c
+SHA1: 9f8bff0ea74d0c8a703aa310f466adc50fa57c6b
+SHA256: a8a9df8da0ba2cf6242249dd32b2f145d448f96f07ffea1150db6d4c9681aa87
 Section: 应用增强
 Description: 微信多功能插件
  * 1:1 复刻“微信净化”插件，功能一模一样
@@ -335,22 +352,6 @@ Section: 破解
 Description: InfusePlus 破解
 Author: dvntm
 Name: Infuse Plus
-
-Package: com.dvntm.showmytouches
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Installed-Size: 472
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.dvntm.showmytouches_1.1.3_iphoneos-arm64.deb
-Size: 53672
-MD5sum: 4178a44d203f7313c53980b51225c1a9
-SHA1: c95d04afcca99d05fda3d69ad5bfd84917aef257
-SHA256: b51362eeca7e946e6c752e3523b4ec9d05869e3932288e85a726650a013fec60
-Section: 系统增强
-Description: 显示屏幕触摸
-Author: dvntm
-Name: ShowMyTouches
 
 Package: com.dvntm.ytlite
 Version: 5.0.2
@@ -555,17 +556,36 @@ Description: Filza解锁全部功能
 Author: Netskao
 Name: Filza Crack
 
-Package: com.netskao.qqnotiavatars
+Package: com.netskao.noappthinning
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: ned
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: it.ned.noappthinning, byg.iosios.net.noappthinnings, com.dao.noappthinning
+Filename: ./debs/com.netskao.noappthinning_1.4_iphoneos-arm64.deb
+Size: 4428
+MD5sum: 07e686f829f0fbb1eb5ae3c1eb922479
+SHA1: 86b937cc9f9a367055d85dc6149dc002e9eaabc3
+SHA256: 29337d86791be710d4bd814126d43a733cd5994d967410f4200eb07ff98d9930
+Section: 工具
+Description: 允许从 App Store 下载全量包应用
+ * 配合 Dumpdecrypter 全权限砸壳使用
+ * 如果你不需要砸壳请不要安装，全量包框架加密，TrollFools 无法注入全量包应用！
+Author: ned
+Name: NoAppThinning 全量包下载
+
+Package: com.netskao.qqnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 204
 Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Filename: ./debs/com.netskao.qqnotiavatars_1.2-2_iphoneos-arm64.deb
-Size: 25572
-MD5sum: 28d8ddd89125b42c64525e0d68008338
-SHA1: 18d0b25425849c93474fcab49613cf618ef29bff
-SHA256: 442dd7e64cda160b947d26c513e75d82cb1d929679c630fe1f8ef3a884d49392
+Filename: ./debs/com.netskao.qqnotiavatar_1.2-2_iphoneos-arm64.deb
+Size: 25556
+MD5sum: 771223abfd2c4356a49f11d0ad8c69fa
+SHA1: ff88e5fdde4f8f9331b32b0cd553fd3a6d462615
+SHA256: da0498af5d7a0d7e723ebd1244b4e62849d0382a711161ce3abca48635cfc918
 Section: 应用增强
 Description: 让 QQ 消息通知显示 QQ 好友头像
 Author: Netskao
@@ -591,17 +611,17 @@ Description: 仅支持 微信8.0.54及以上，iOS 16及上  +86号码强制激�
 Author: Netskao
 Name: 微信通行密钥
 
-Package: com.netskao.wechatnotiavatars
+Package: com.netskao.wechatnotiavatar
 Version: 1.2-5
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 2336
 Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Filename: ./debs/com.netskao.wechatnotiavatars_1.2-5_iphoneos-arm64.deb
-Size: 523304
-MD5sum: fa4392fcc3d0221fd7cbe11a0182f817
-SHA1: 420651e6ad2c860f714d273b8835cf2e3ca5cae7
-SHA256: 5c1c0b3676c675b9d2813443616d2f005949cc02beb5c2fc7767e88136d48691
+Filename: ./debs/com.netskao.wechatnotiavatar_1.2-5_iphoneos-arm64.deb
+Size: 523168
+MD5sum: f58cdeb410befa2a8756771dd359685b
+SHA1: c6b92f9407e29f4055472193b52ddd675663e668
+SHA256: 8c4a5ef485b3777ff2f52cf3298c07c6efc76dd4af3f0bee9f57acfd9d146638
 Section: 应用增强
 Description: 让微信消息通知显示微信好友头像，傻逼张小龙为什么不支持？
 Author: Netskao
@@ -727,14 +747,14 @@ Architecture: iphoneos-arm64
 Maintainer: CyPwn <xuanhua880@gmail.com>
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.qwwz.touchvis_2.8_iphoneos-arm64.deb
-Size: 708056
-MD5sum: 5130197fe22b1138c040248c13c67201
-SHA1: d8663f38f29de4e82c8b3823547146e34b0d2879
-SHA256: 3f5394461a5807e19065afb4fbe419952034bc14099c3fa2e45ae54b43b6a5d6
+Size: 708184
+MD5sum: 97ab7e0db664c04cd5eb7b7372176b90
+SHA1: 54814191e506db9d18a7f94a8536058f5623ea89
+SHA256: 91d3ce02c8b61ea5a967fa201eb1480c838cf05bba99a56b07c9b97d79df30e7
 Section: 系统增强
-Description: Touch-Viz，全新的触摸显示插件，中文菜单，非常好用。
+Description: 屏幕触摸轨迹显示
 Author: Lessica <xuanhua880@gmail.com>
-Name: Touch-Viz(Rootless)
+Name: Touch-Viz
 
 Package: com.screenshot.telegram
 Version: 1.0
@@ -1138,26 +1158,7 @@ Dev: aqua
 Name: iMemSeeker
 Sponsor: Aqua Wu <igameguardian@gmail.com>
 
-Package: it.ned.noappthinnings
-Version: 1.4
-Architecture: iphoneos-arm64
-Maintainer: ned
-Installed-Size: 168
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: it.ned.noappthinning, byg.iosios.net.noappthinnings, com.dao.noappthinning
-Filename: ./debs/it.ned.noappthinnings_1.4_iphoneos-arm64.deb
-Size: 4436
-MD5sum: ed79cca972f31fd0ab7d0b343c60fd17
-SHA1: fcf7b121fcdf0aafb8cbdbb13120c0e7330d3082
-SHA256: 2e5c6fd5bcc111fbd07912238fd5d49f569ab59de2b89412cc207d7626683e9b
-Section: 工具
-Description: 允许从 App Store 下载全量包应用
- * 配合 Dumpdecrypter 全权限砸壳使用
- * 如果你不需要砸壳请不要安装，全量包框架加密，TrollFools 无法注入全量包应用！
-Author: ned
-Name: NoAppThinning 全量包下载
-
-Package: jp.akusio.backgrounderaction15s
+Package: jp.akusio.backgrounderaction15
 Version: 0.1.0
 Architecture: iphoneos-arm64
 Maintainer: @akusio_RR
@@ -1166,11 +1167,11 @@ Depends: mobilesubstrate, com.opa334.ccsupport
 Conflicts: jp.akusio.backgrounderaction15
 Replaces: jp.akusio.backgrounderaction15
 Provides: jp.akusio.backgrounderaction15
-Filename: ./debs/jp.akusio.backgrounderaction15s_0.1.0_iphoneos-arm64.deb
+Filename: ./debs/jp.akusio.backgrounderaction15_0.1.0_iphoneos-arm64.deb
 Size: 13448
-MD5sum: 666697df767345099a9985dca2461bf0
-SHA1: 35c658b0dab91f6e5bff57a2f5224ab353b6bb61
-SHA256: 0d7b06cf24df2e5bb08bc5873749634ef4bfbe9b2519f8c939788fc8ab974022
+MD5sum: f5d96ed23b2229cfb60139f6c7af4305
+SHA1: af385580e93631dc811f7cc5ffb2ef3515f1e464
+SHA256: dc510cf9d73ef932449900ba75455eae01d7c8032a28294245eb7ddffc269386
 Section: 系统增强
 Description: 控制中心真后台模块
  * 设置-控制中心添加模块
@@ -1283,16 +1284,16 @@ Section: 工具
 Priority: important
 Description: secure shell client and server (metapackage)
 
-Package: org.haxi0.derootifiers
+Package: org.haxi0.derootifier
 Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: haxi0
 Depends: mobilesubstrate, odcctools, fakeroot, ldid, oldabi, file, openssh-server, zstd
-Filename: ./debs/org.haxi0.derootifiers_1.3_iphoneos-arm64.deb
-Size: 529504
-MD5sum: b4ab624b60d5a2059b9727d51876f543
-SHA1: 29d833e96a9210de4fafd0bf0fb1e37eba5ccb38
-SHA256: 702a03074a4b0ed2ed590bafb73eb2162c4621c4afaa3b0a8e4f6b2a464f1225
+Filename: ./debs/org.haxi0.derootifier_1.3_iphoneos-arm64.deb
+Size: 529484
+MD5sum: 675e12a44dda82e493b6905e0caafe2a
+SHA1: 515f8919a16395a3d7930271835230d10f7f11df
+SHA256: 349b1eeecb4f2b877eead69cae3c39ba9a21999255652da58cb3d9e85c9e51c8
 Section: 工具
 Description: 有根转无根工具
  * arm to arm64
