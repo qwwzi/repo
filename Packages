@@ -56,14 +56,14 @@ Maintainer: 来了老弟
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/cn.llld.igg_0.0.2_iphoneos-arm64.deb
-Size: 6856
-MD5sum: 0f1091d9e05d41bfc07d12490a7c9a36
-SHA1: 5930f8cf61f05065dc4a8ada044fa9de73b76b70
-SHA256: 2eb837318bbf75d7f49cf5d5f9ea4f1ec44235f7a4889067d333a1527077190b
+Size: 6820
+MD5sum: 4acf2018de31f4baad422e037d60f5b6
+SHA1: c43fca79ebad14abbc92d257602a3f41cd2df359
+SHA256: c551e5d651d6906f0f6399c294752a0ad836d5d36d16263359f668a7ce37c38e
 Section: 汉化
-Description: igg汉化，iGameGod汉化，神秘靓仔定制汉化-rootless
+Description: iGameGod汉化
 Author: 来了老弟
-Name: igg汉化-rootless
+Name: igg汉化
 
 Package: cn.tinyapps.rst
 Version: 2.4.1.1
@@ -114,14 +114,14 @@ Maintainer: qwwz
 Installed-Size: 504
 Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.inject
 Filename: ./debs/cocoatop64.unject_3.1.1_iphoneos-arm64.deb
-Size: 139084
-MD5sum: 46f0a75dc338c67a3261fdb1f2228214
-SHA1: 467d05789f55401be0dcfa6ec6e712cd8055abfa
-SHA256: 8e4c8d9fd24b7ea6fc322825737ee65ee930a38406962051a2f5f0936a7ed83f
+Size: 139064
+MD5sum: 42bea10e450935a20267c5b50d8e2530
+SHA1: c697d4ebb9fb00d6f5212728e08ff85e30a9ccc2
+SHA256: f53bceb06783aab228d1970f5886acdd0aa1e835f695374ed7b39dc0cefe36e8
 Section: 工具
 Description: Process Viewer for iOS GUI,适配rootless并增加一些小功能.1.长按图标的插件针对APP更友好- 2.此app更适合屏蔽进程类的注入- 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
 Author: Domo, SXX , zp
-Name: CocoaTop64.zp进程管理-Rootless
+Name: CocoaTop64.zp进程管理
 
 Package: codes.aurora.kayokos
 Version: 2.7
@@ -236,14 +236,14 @@ Maintainer: Bruno Andrade <brubiluco@globo.com>
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
 Conflicts: com.brunonfl.wicellswitcher
 Filename: ./debs/com.brunonfl.wicellswitcher_1.2_iphoneos-arm64.deb
-Size: 23280
-MD5sum: 1246c6ca93b9654b5cd941f25b27bc23
-SHA1: 6ccc0261a6706466c4c49df2c34f27fe440c0e5e
-SHA256: 3c95fff243633f939421ebd1882e037d729efad14a4397ae559f8fb655c19d31
+Size: 23284
+MD5sum: 4817661b160ec55dd7d35afbd26372e4
+SHA1: 0e8caa0f70a340d3a2948cd458f1849f939e7c8f
+SHA256: 106dd0a61a3832550c8e62c4e2d7d7809a9e5c8fb60664292af32ecada6fdfb6
 Section: 系统增强
 Description: WiFi和蜂窝数据之间智能切换，控制中心连接WiFi关闭蜂窝，连接蜂窝关闭WiFi，或者断开连接时触发
 Author: Bruno Andrade <brubiluco@globo.com>
-Name: WiCellSwitcher(rootless)
+Name: WiCellSwitcher
 
 Package: com.cannathea.afc2d-arm64
 Version: 1.2.0
@@ -360,14 +360,14 @@ Maintainer: iGameGod
 Installed-Size: 203320
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.gamegod.igg.rootless_0.4.4_iphoneos-arm64.deb
-Size: 52421232
-MD5sum: 16a2d58b9f7b7cb2b18a22d6193e47c3
-SHA1: 53f828e9219ac99eac6a696ae2704375c02bfbe8
-SHA256: 81a42b42e012914399dc053135106535b29cce1a386b50e8f0ad5263d49faf0f
+Size: 52420008
+MD5sum: 4dd276dc489f1f7802f0506183f77b24
+SHA1: baa1ced5ea6b21cdd917ac7c2057bda0d137b6e1
+SHA256: 2ce675ecff85030a2c2dac6af53b4f68df0ce436df4e71edfcbb6a7be1993706
 Section: 工具
 Description: igg修改器
 Author: iGameGod
-Name: iGameGod Rootless
+Name: iGameGod
 
 Package: com.goodwifi16
 Version: 1.0.1
@@ -393,12 +393,12 @@ Maintainer: Muirey03 & lclrc
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/com.lclrc.recordanywhere_1.1.0_iphoneos-arm64.deb
-Size: 4584
-MD5sum: 127593ea4cadfa5ac288e325e1537918
-SHA1: 859c3dba5d7828e50d398f5f50b65062b8dc1350
-SHA256: 88b57e3542039620748e1d39809e2b182b7dcb43833187886c3a8a0e0a6e226e
+Size: 4524
+MD5sum: 42daf8a74be5a9858f26c6efd9a790e7
+SHA1: 2a54a231976e6c9a62c320eaec710351ac65f2d8
+SHA256: 77eb13d61af77145df1d1883b6c5b0e0fc9a3ef71d96a66ab204d0a53aaf8aa0
 Section: 系统增强
-Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
+Description: 使手机在锁屏状态也可以继续录屏
 Author: Muirey03 & lclrc
 Name: 锁屏录屏RecordAnywhere
 
@@ -561,17 +561,18 @@ Maintainer: Nets
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/com.netskao.wcisoverseauser_1.1-1_iphoneos-arm64.deb
-Size: 2384
-MD5sum: f015ad1e3732643cbbc8e8cb3691271f
-SHA1: 5645fc33acbf9c71eea065ee0d487b7c10e9ce88
-SHA256: 2580228d37dc39e205d52275fdc9a6aa8de2b0283a7e85028e02e3a520b82749
+Size: 2408
+MD5sum: ce8432be3cf61aa6e009872e9f592cf7
+SHA1: 3a24b172946b242d84b4d33aaaf431d72c58ccaa
+SHA256: 48df74a90fd7a104c7f0a64b99e9b134007152d37fd5303805659a8661e59d1f
 Section: 应用增强
-Description: 仅支持 微信8.0.54，iOS 16及上+86号码强制激活“通行密钥”补丁
+Description: 仅支持 微信8.0.54及以上，iOS 16及上  +86号码强制激活“通行密钥”补丁
+ * 设置 ＞ 账号与安全 ＞ 通行密钥
  * 通过iCloud账号创建一个通行密钥﻿
  * 创建后可凭指纹，面容解锁方式登录微信账号
  * 在使用相同iCloud账号的设备中可免密码登录
 Author: Netskao
-Name: 微信是海外用户
+Name: 微信通行密钥
 
 Package: com.netskao.wechatnotiavatars
 Version: 1.2-5
@@ -613,14 +614,14 @@ Maintainer: niceios
 Installed-Size: 2648
 Conflicts: com.niceios.nicehelper
 Filename: ./debs/com.niceios.nicehelper-rootless_6.6-4_iphoneos-arm64.deb
-Size: 733044
-MD5sum: d081dc36620be61a9fe90ea7176f113f
-SHA1: 04385112892ae71ed9ebe271f748e8de1b804dab
-SHA256: 14d1980f5acfca81dd149fe2a7871b1a584ea34acc22fdc32b597bcb54bf0ffa
+Size: 733008
+MD5sum: 0e4eaa23ddbc8055b6e6a32d741c35d9
+SHA1: aa721a330010866346f471d2d880231334f79dc5
+SHA256: c3ab6a5644baa89a1ae217becca01e3cb586feccc30da70fb2566d32c867058f
 Section: 依赖
 Description: nice插件依赖组件.
 Author: niceios
-Name: NiceHelper【Rootless】
+Name: NiceHelper
 Sponsor: niceios
 
 Package: com.opa334.choicy
@@ -678,14 +679,14 @@ Architecture: iphoneos-arm64
 Maintainer: qwwz
 Depends: mobilesubstrate
 Filename: ./debs/com.qwwz.h5ggapp_7.9_iphoneos-arm64.deb
-Size: 2104452
-MD5sum: 74011fa92e1fd4eed3514cdfeffecf86
-SHA1: e58a015333fcd1560c4c46b0ca34e0dcb0e0dbe1
-SHA256: e77a7e4949746b3a101442981ce614a63412f7951d216c3ac7af71c28f58fdf5
+Size: 2104428
+MD5sum: 74225640696f47f6e59e7b8b83c7c269
+SHA1: 17382a191bea8047157e04fd1d4d7fdfe619880e
+SHA256: 0756f66b4f7aeb9d6ced6ce13ccd0041111d913c0c9e83d7baf4ba7aad1e2303
 Section: 工具
 Description: iOS16 Rootless可用的悬浮版
 Author: qwwz
-Name: H5GG跨进程悬浮版(多巴胺)
+Name: H5GG跨进程悬浮版
 
 Package: com.qwwz.icleanerpro
 Version: 7.10.0
@@ -725,14 +726,14 @@ Architecture: iphoneos-arm64
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
 Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader, com.hk.settingsrevamp.cn.rl
 Filename: ./debs/com.sop.settingsrevamp_3.0.1_iphoneos-arm64.deb
-Size: 212692
-MD5sum: e69a4fcebefc389e363a5d11c961c063
-SHA1: 20c23f7ed82f265d7eb2b653118504174fa3d389
-SHA256: cf50f8f6b1418c85b1f4282019ed0a154c680820400f408555e7f5e08bb77324
+Size: 213428
+MD5sum: e8bf0d698ef9325f6e64a060d7a350b6
+SHA1: a848584f773f15fdaedcf2e272d1e006dea0f459
+SHA256: 1973450c7895c54f5d4d4ed03b7fa054a873c19e9cf80a0526743efb9e39a8a9
 Section: 系统增强
-Description: Customize the ios settings page插件设置归类，一款将插件归类，美化系统设置的插件，已最新汉化，无需汉化包
+Description: Customize the ios settings page插件设置归类，一款将插件归类，美化系统设置的插件，已汉化
 Author: SOPPPra
-Name: SettingsRevamp-设置归类-Rootless
+Name: SettingsRevamp-设置归类
 
 Package: com.spark.laetus
 Version: 3.5.1-rootless
@@ -917,22 +918,6 @@ Description: 适用于iPhone、iPad、iPod Touch的文件管理器，支持iOS 1
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
-Package: com.wicellswitcher
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: Bruno Andrade <brubiluco@globo.com>
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Conflicts: com.brunonfl.wicellswitcher
-Filename: ./debs/com.wicellswitcher_1.2_iphoneos-arm64.deb
-Size: 23340
-MD5sum: 9b7395b497ba50dd70c66dd8f7df9939
-SHA1: bb9bc8e2ccc1a6b916b184baa94906c56d9cde88
-SHA256: 1f652a14a3b4119029bcede6b353b9a532101624985c8b3763d461b34e2b402a
-Section: 系统增强
-Description: WiFi和蜂窝数据之间智能切换，控制中心连接WiFi关闭蜂窝，连接蜂窝关闭WiFi，或者断开连接时触发。Skypain基于i_82修复支持iOS15的源码，编译支持rootless。
-Author: Bruno Andrade <brubiluco@globo.com>
-Name: WiCellSwitcher(rootless)
-
 Package: com.xx.dyhook
 Version: 2.0.7+8
 Architecture: iphoneos-arm64
@@ -1003,16 +988,16 @@ Architecture: iphoneos-arm64
 Maintainer: xybp888
 Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
 Filename: ./debs/com.xybp888.callassist16.dopamine_1.6.7_iphoneos-arm64.deb
-Size: 2738412
-MD5sum: 625e8c6ee62d6ef7c8c8d9943f692032
-SHA1: 67df4423b4ac67f29b9d6d1173bd92ee956e4b8c
-SHA256: d9ce30a33e9fff6ab74bf2899c87dea01d6df0c09c5d1d924ad538aa81ad0377
+Size: 2738424
+MD5sum: 3a93886447b0775888d81d2ff3227931
+SHA1: 4989add5e977dcb99d9c22d6e53a255fe8d65ef1
+SHA256: b7c421f906a659b4c7407ce1cde58c2eee73ffc3537c328ac95b246ba13b8d50
 Section: 系统增强
 Priority: optional
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 Author: xybp888
 Depiction: https://apt.htv123.com/view/150
-Name: 电话助手iOS16-正式版(Rootless)
+Name: 电话助手iOS16
 Sileodepiction: https://apt.htv123.com/sileo/150
 
 Package: com.xybp888.magiciannojailbreak.dopamine
@@ -1039,17 +1024,17 @@ Architecture: iphoneos-arm64
 Maintainer: xybp888
 Depends: firmware (>= 16.0), mobilesubstrate
 Filename: ./debs/com.xybp888.perfectdynamiclsland_0.1-5_iphoneos-arm64.deb
-Size: 311740
-MD5sum: 1358010314281baf1eb70e649fa31038
-SHA1: 28e41fe3637d2660e1764db402872e74c8cefad0
-SHA256: e83b352fe96de92ea07b1d7b0e36dbdd03cee8c74a44e9927a1a325910267845
+Size: 311832
+MD5sum: 4a1799c3f4c93eb8dcae1a3c24e082c4
+SHA1: 26741a70ff4ab0d0a6fd8bbc53f4c440299334fd
+SHA256: 0808babdd208d715c71e14f5f822f6b58d1a367cd734f50ccdf32ca2af7aa08f
 Section: 系统增强
 Priority: optional
 Description: 电话助手激活用户专属免费插件
  完美的使用原生灵动岛展示系统通知等...
 Author: xybp888
 Depiction: https://apt.htv123.com/view/141
-Name: 灵动通知(Rootless)
+Name: 灵动通知
 Sileodepiction: https://apt.htv123.com/sileo/141
 
 Package: com.zqbb.fix120hz
@@ -1184,16 +1169,16 @@ Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Filename: ./debs/me.afhook.app_3.5.0_iphoneos-arm64.deb
-Size: 157432
-MD5sum: d8a0297b6394b3c3c47723ecfd1a1816
-SHA1: af7ea9356c2d8dbc1b4003927769e2e5c686d4f7
-SHA256: b391e28c0c4f3ad01946119502154fe638c2727019ec60a592f365c3db21deb1
+Size: 158068
+MD5sum: 8f83720d88dcc7dc0f204ea085e2ab84
+SHA1: 7a9d6bfc7fcaa6ce356cb965a82a0b39852bb9d4
+SHA256: 7e6468e6f0e4e0353e26be30e2bbb5d6a177b218ff5c48eb32e67315201dde85
 Section: 工具
 Description: 改机型，比如 游戏解锁画质高刷
 Tag: purpose::extension
 Author: 小哥哥 <zhulongfei28@gmail.com>
 Dev: zhulongfei28
-Name: 改个应用-专业的应用修改软件
+Name: 改个应用
 
 Package: moe.misty.sslkillswitch3
 Version: 1.5.1+rootless
