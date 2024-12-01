@@ -1,8 +1,7 @@
 #!/bin/bash
 
-dpkg-scanpackages -m . /dev/null > Packages
-bzip2 -c Packages > Packages.bz2
-xz -c Packages > Packages.xz
+dpkg-scanpackages . /dev/null > Packages
+bzip2 Packages
 
 git add .
 git commit -m "更新文件"
